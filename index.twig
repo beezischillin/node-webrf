@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>WebRf</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>Command</th>
+				<th></th>
+			</tr>
+			{{#each commands}}
+			<tr>
+				<td>{{this.label}}</td>
+				<td><button onClick="window.location.href = '/execute/{{@key}}';">Go</button></td>
+			</tr>
+			{{/each}}
+		</table>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "webrfremote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "rpi-433-v3": "^1.2.0"
+  }
+}

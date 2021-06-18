@@ -1,0 +1,14 @@
+{
+	"port": 8080,
+	"pins": {
+		"send":    0,
+		"receive": 2
+	},
+	"commands": {
+		"car_unlock": {
+			"label": "Unlock",
+			"code":  12345678,
+			"pulse": 325
+		}
+	}
+}
